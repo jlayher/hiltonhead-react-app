@@ -1,11 +1,13 @@
 import React from 'react'
+import { Nav, NavLink, Bars, NavMenu, NavBtn, NavBtnLink } from './NavBarElements';
+import {FaUmbrellaBeach} from "react-icons/fa";
 
 const Navbar = () => {
   return (
     <>
       <Nav>
         <NavLink to="/" >
-          <h1>logo</h1>
+          <FaUmbrellaBeach></FaUmbrellaBeach>
         </NavLink>
         <Bars />
         <NavMenu>
